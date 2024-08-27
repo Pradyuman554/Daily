@@ -139,3 +139,8 @@ Rotting Oranges:
 2) Add all rotten ones to queue first
 3) Fir sare nodes ke sath vale nodes ko 2 kardo aur queue main bhi add kardo. Pichhle valo ko hata do par (mtlb jinke sath vale 2 mark kar diye hai)
 4) Tab tak karo jabtk list empty ni ho jati
+
+code:
+1. For all grid cells that are 2, mark visited as 2, and add to q, else mark visited as 0.
+2. drow and dcol bana aur tm bhi
+3. Fir BFS kardez
