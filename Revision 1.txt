@@ -141,3 +141,16 @@ code:
 1. For all grid cells that are 2, mark visited as 2, and add to q, else mark visited as 0.
 2. drow and dcol bana aur tm bhi
 3. Fir BFS kardez
+
+--------------------------------------
+NextJs: Toodl:
+const stores{
+	car: 1,
+	bus: 2
+}
+objects.keys(stores).map(store,storeindex)=>{
+	<div key ={storeindex}>
+		<p>{store}</p> //Prints the keys of struct
+		<p>{stores[store]</p>	//Prints the values of struct using the KEY that we just used
+	</div>
+}
