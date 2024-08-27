@@ -156,3 +156,6 @@ objects.keys(stores).map(store,storeindex)=>{
 }
 *In Tailwind CSS, the flex-1 class allows a flex item to grow and shrink as needed, ignoring its initial size. It sets the flex-grow property to 1, allowing the flex item to fill the available space, and the flex-shrink property to 1, allowing the item to shrink if necessary. The flex-basis property is set to 0, meaning the starting size of the item before it grows or shrinks will be 0.
 *
+-------------------------------
+Apti:
+1. Time and Work: Units main convert kardo, fir us basis pe kaam karo. Start from intermediate tmrw
