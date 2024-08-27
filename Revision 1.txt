@@ -1,0 +1,101 @@
+DAA~ Revision
+aymptotic notation
+big o, omega, theta, recurrence relation
+trees, stack, array, AVL tree, hash function types, types of queue, Heap operations (find, insert, delete, meld, merge, replace, empty)
+parent of a child in heap is floor(i/2)
+
+max heapify(i)
+i=left, r=right,
+if l<=a.heap-size and a[l] > a[i]
+larget=l
+else largest=i
+if r<=a.heap-size and ar]>a[largest]
+largest=r
+if largest!=i
+swap(largest,i)
+max heapify(largest)
+
+largest element ko last vale se swap kardo
+fir max heapfiy kardo last ko exclude karke
+Algo:
+1. build max heap
+2. for a.length se 2 tak
+	swap 1st and a[last], maximum banda last jayega
+	a.heap-size--
+	maxheapify(a,1) matlab 1 se start karo aur pura array maxheap karo
+
+bucket sort:
+1. make new array of that size
+2. fill that array with a, indexing floor(n(a[i])
+3. insertion sort if necessary
+Bucket, Radix, and counting sort
+
+Not done:
+--B tree, red black tree
+-------------------------------------
+AP~~
+inorder:
+curr = head
+while(curr!=NULL or !s.empty())
+	while(curr!=NULL)
+		s.push(curr)
+		curr = curr->left, push to the leftest
+
+	curr = s.top()
+	cout<< curr
+	s.pop()
+	curr = curr->right
+**
+while(curr!=NULL and !s.empty())
+	//Traverse to the leftest node
+	cout s.top and pop
+	curr = curr->right
+**
+preorder:
+st.push(root)
+while(!s.empty())
+	node = s.top()
+	cout data
+	s.pop()
+
+	if(node->right)	push right
+	if(node->left) push left
+1) print the top element and pop
+2) push right element
+3) push left element
+
+postorder:
+if !root return list
+
+Morris traversal
+-----------------------------------------
+CN:
+MUX DEMUX 1 isto 8 all that
+Switching:
+1. Circuit
+CONNECTION ORIENTED
+connection pre established
+make diagram
+once a connection is established, we cannot send any other data in it, just like a phone call.
+No delay.
+Connection time waste
+Circuit switched network is MADE OF A SET OF SWITCHES connected by physical links, each of which are divided into multiple channels
+phases: Connection establish, message send, connection break
+Routing is done using FDM: frequency division multiplexing, and tdm: time division multiplexing
+
+
+2. Message
+CONNECTION ORIENTED
+message is sent
+also called store and forward switching
+message is only forwarded if destination has empty space
+message contains source and destination address.
+Delay if destination doesnt have space.
+Large storage capacity required
+
+3. Packet switching
+Message is broken down into number of packets which take different and optimised roots. Pretty efficient
+
+Virtual packet switching: Logical connection is established before.
+Datagram packet switching
+a
