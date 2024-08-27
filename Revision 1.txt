@@ -98,4 +98,44 @@ Message is broken down into number of packets which take different and optimised
 
 Virtual packet switching: Logical connection is established before.
 Datagram packet switching
-a
+-------------------------------
+1:30 Backlog
+-------------------------------
+A2Z sheet
+Graph revision:
+DFS using adjacency list:
+Data structure: map<int,bool> visited;
+		map<int, list<int>> adj;
+
+void DFS(int v){
+	visited[v] = true
+	cout<<v<<" ";
+
+	for(auto itr=adj[v].begin();itr!=adj[v].end(); itr++){
+	if(!visited[*itr])	DFS(*itr);
+	}
+}
+
+
+BFS:
+data structure: vector<list<int>> adj;
+void BFS(int s)
+	vector<bool> visited(V,false)
+	visited[s]=true
+	list<int> queue
+	queue.push_back(s)
+
+	while(!queue.empty())
+		cout<<queue.front();	queue.pop()
+		for(auto adjacent: adj[s])
+			if(!visited[adjacent)
+				visited[adjacent]=true
+				queue.push_back(s)
+	
+
+
+Rotting Oranges:
+1) We are using queue and BFS, usme kam complexity hogi, vaise to DFS se bhi ho skta hai but hamko sath vale node par aane ke liye KONE SE VAPAS ana padega gol gol ghumke
+2) Add all rotten ones to queue first
+3) Fir sare nodes ke sath vale nodes ko 2 kardo aur queue main bhi add kardo. Pichhle valo ko hata do par (mtlb jinke sath vale 2 mark kar diye hai)
+4) Tab tak karo jabtk list empty ni ho jati
