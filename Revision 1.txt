@@ -116,7 +116,6 @@ void DFS(int v){
 	}
 }
 
-
 BFS:
 data structure: vector<list<int>> adj;
 void BFS(int s)
@@ -131,8 +130,6 @@ void BFS(int s)
 			if(!visited[adjacent)
 				visited[adjacent]=true
 				queue.push_back(s)
-	
-
 
 Rotting Oranges:
 1) We are using queue and BFS, usme kam complexity hogi, vaise to DFS se bhi ho skta hai but hamko sath vale node par aane ke liye KONE SE VAPAS ana padega gol gol ghumke
