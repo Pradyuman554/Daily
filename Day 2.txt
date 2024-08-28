@@ -68,3 +68,24 @@ Transmission Media classes:
 Configuration: Straight through and crossover
 Coaxial: Broadband, Baseband, Fiber optic cable
 2. Unguided
+------------------------------------------------
+SE~~:
+
+Use Case diagram:
+Actors and system hota hai
+Multiple types of actors use the system for different reasons. The system is round(), and normal lines are used to connect them
+
+Activity Diagram:
+1. Activity: Circled rectangle
+2. Diamond: Decision
+3. Arrows to connect
+
+State diagram:
+1. Rectangle
+2. Arrow
+3. Filled circle: Initialization
+4. White track: Final State
+
+Class Diagram:
+1. Rectangles and arrows
+The rectangle contains: Name, Attribute, Operation
