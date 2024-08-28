@@ -99,7 +99,7 @@ SLDC: Software development life cycle
 6) Deploying and Maintaining
 
 Different life cycle models:
-1. Classical Waterfall model
+1. Classical Waterfall model: Linear sequential lifecycle
 2. Iterative Waterfall model
 3. Prototype Model
 4. Incremental Model
