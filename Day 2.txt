@@ -40,19 +40,31 @@ Types of connections:
 2. Multipoint: From one node to multiple nodes
 
 Broadcast Networks:
-1. 1km: LAN
-2. 10KM: MAN
+1. 10km: LAN
+2. 100KM: MAN
 3. 1000KM: WAN
 
+Types of HUB:
+1. Active: Have own supply, can clean, boost, etc. signal
+2. Passive: Collect wiring from nodes and power supply from active hub
+3. Intelligent hub: Works like active hub AND HAS REMOTE MANAGEMENT, so we can control from administrator facility to monitor
+
 Network devices:
-1. Switch: Connects devices on same network. Eg.LAN Forwards data
+1. Switch: Connects devices on same network. Eg.LAN Forwards data. 24-48
+types: 
+1. Unmanaged: Single plug, do not offer advanced config options
+2. Managed: Offer advanced config options like VLAN, and QoS for large and complex networks
+3. Smart switches: Security features and command line interface
+
 2. Router: Connects MULTIPLE NETWORKS together, eg. home to internet. Uses IP address to determine path. Eg. using internet
-3. Hub: It BROADCASTS incoming data to ALL CONNECTED DEVICES. Rest same like switch. No one uses it nowadays
+3. Hub: It BROADCASTS incoming data to ALL CONNECTED DEVICES. Rest same like switch. No one uses it nowadays. 4-12 ports
 4. Amplifier: Increases frequency of signal in case of loss. Increases strength
 5. Repeater: COPIES SIGNAL and repeats it increases distance of signal, thats why calls repeater, IT DOESNT LET THE STRENGTH DECREASE
 6. Gateway: Acts as GATE BETWEEN 2 NETWORKS. Translating data BETWEEN PROTOCOLS, eg. from an internal protocol to internet (HTTP)
 7. Bridge: CONNECTS 2 OR MORE NETWORK SEGMENTS, within same TYPE of network, FILTERS TRAFFIC based on mac address. Used to divide LARGE NETWORK into smaller managable segments
 
 Transmission Media classes:
-1. Guided: Twisted: STP, UTP, Coaxial: Broadband, Baseband, Fiber optic cable
+1. Guided: Twisted: STP, UTP,
+Configuration: Straight through and crossover
+Coaxial: Broadband, Baseband, Fiber optic cable
 2. Unguided
