@@ -89,3 +89,11 @@ State diagram:
 Class Diagram:
 1. Rectangles and arrows
 The rectangle contains: Name, Attribute, Operation
+---------------------------------------
+SLDC: Software development life cycle
+1) Requirement Analysis: Ask from customers
+2) Requirement definition: Define requirements according to analysis
+3) Product Designing
+4) Product Development
+5) Testing
+6) Deploying and Maintaining
