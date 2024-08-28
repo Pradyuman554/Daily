@@ -28,3 +28,31 @@ Algo:
 1. Sort
 2. Keep c outing the first and last elements
 3. if l==r cout<<s[l] too, when s.length is odd
+---------------------------------------------------
+CN~~:
+Data flow:
+1. Simplex: Only sending of data
+2. Half Duplex: Single direction of data flow, but both ways
+3. Full Duplex: Dono side ko data flow karta hai
+
+Types of connections:
+1. point-to-point: From node to node
+2. Multipoint: From one node to multiple nodes
+
+Broadcast Networks:
+1. 1km: LAN
+2. 10KM: MAN
+3. 1000KM: WAN
+
+Network devices:
+1. Switch: Connects devices on same network. Eg.LAN Forwards data
+2. Router: Connects MULTIPLE NETWORKS together, eg. home to internet. Uses IP address to determine path. Eg. using internet
+3. Hub: It BROADCASTS incoming data to ALL CONNECTED DEVICES. Rest same like switch. No one uses it nowadays
+4. Amplifier: Increases frequency of signal in case of loss. Increases strength
+5. Repeater: COPIES SIGNAL and repeats it increases distance of signal, thats why calls repeater, IT DOESNT LET THE STRENGTH DECREASE
+6. Gateway: Acts as GATE BETWEEN 2 NETWORKS. Translating data BETWEEN PROTOCOLS, eg. from an internal protocol to internet (HTTP)
+7. Bridge: CONNECTS 2 OR MORE NETWORK SEGMENTS, within same TYPE of network, FILTERS TRAFFIC based on mac address. Used to divide LARGE NETWORK into smaller managable segments
+
+Transmission Media classes:
+1. Guided: Twisted: STP, UTP, Coaxial: Broadband, Baseband, Fiber optic cable
+2. Unguided
